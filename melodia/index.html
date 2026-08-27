@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informativa privacy — MelodIA</title>
+  <meta name="description" content="Informativa privacy di MelodIA, lettore musicale per Android.">
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 820px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.65; }
+    a { color: #2962ff; }
+    h1, h2 { line-height: 1.2; }
+    .updated { color: #666; }
+    .notice { border-left: 4px solid #2962ff; padding: .75rem 1rem; background: #2962ff14; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="../">← Tutte le informative</a></p>
+    <h1>Informativa privacy — MelodIA</h1>
+    <p class="updated"><strong>Ultimo aggiornamento:</strong> 27 agosto 2026</p>
+
+    <p>Questa informativa descrive il trattamento dei dati nell'app Android <strong>MelodIA</strong> (package name: <code>com.aicopilot.music</code>), pubblicata da <strong>GenLan4</strong>.</p>
+
+    <h2>1. Titolare e contatti</h2>
+    <p>Il titolare è GenLan4. Per domande sulla privacy o richieste relative ai dati, contatta lo sviluppatore tramite l'indirizzo email indicato nella scheda Google Play dell'app.</p>
+
+    <h2>2. Dati trattati localmente</h2>
+    <p>Per il funzionamento principale, MelodIA elabora sul dispositivo:</p>
+    <ul>
+      <li>file audio locali e relativi metadati, come titolo, artista, album e copertina;</li>
+      <li>playlist, coda di riproduzione, cronologia e statistiche di ascolto;</li>
+      <li>impostazioni dell'app, inclusi provider configurati e preferenze;</li>
+      <li>cache locale delle copertine e dei testi sincronizzati scaricati;</li>
+      <li>stato locale dell'eventuale funzionalità Pro.</li>
+    </ul>
+    <p>Questi dati non vengono inviati automaticamente al titolare e non è richiesto un account MelodIA per usare il lettore.</p>
+
+    <h2>3. Permessi</h2>
+    <ul>
+      <li><strong>Audio/storage:</strong> serve per leggere la musica scelta dall'utente e, quando richiesto, aggiornare metadati tramite le funzioni Android autorizzate.</li>
+      <li><strong>Internet:</strong> serve esclusivamente per le integrazioni remote descritte sotto, quando la relativa funzione viene usata o attivata.</li>
+      <li><strong>Microfono/riconoscimento vocale:</strong> può essere usato dalla funzione comandi vocali tramite il servizio di riconoscimento vocale configurato sul dispositivo. L'elaborazione e la conservazione della voce dipendono da Android e dal provider scelto dall'utente.</li>
+      <li><strong>Notifiche:</strong> servono per i controlli e lo stato della riproduzione.</li>
+    </ul>
+
+    <h2>4. Servizi di terze parti</h2>
+    <p>MelodIA non invia dati ai servizi descritti di seguito in background. Una richiesta avviene solo quando l'utente usa la funzione corrispondente, oppure quando l'ha esplicitamente configurata.</p>
+
+    <h3>Testi delle canzoni — LRCLIB o endpoint scelto</h3>
+    <p>La funzione Lyrics invia al provider scelto dall'utente i metadati necessari alla ricerca, normalmente titolo, artista, album e durata. L'URL predefinito è <a href="https://lrclib.net/">LRCLIB</a>; l'utente può disattivare la funzione o configurare un endpoint HTTPS compatibile. I risultati possono essere salvati nella cache privata dell'app per l'uso offline e possono essere cancellati dalle Impostazioni.</p>
+    <p>I testi possono essere protetti da diritti d'autore. L'utente deve verificare i termini del provider e i diritti applicabili. La configurabilità dell'endpoint non è un modo per aggirare licenze o policy degli store.</p>
+
+    <h3>MusicBrainz</h3>
+    <p>Se attivato, l'arricchimento dei metadati può inviare a MusicBrainz titolo, artista, album e durata. I risultati vengono associati localmente alla libreria. Consulta la <a href="https://musicbrainz.org/doc/MusicBrainz_Database/Download">documentazione e la policy di MusicBrainz</a>.</p>
+
+    <h3>Deezer</h3>
+    <p>La funzione Nuova musica può usare Deezer per cercare artisti correlati, anteprime e copertine remote. Le richieste possono includere identificativi o nomi di artisti e brani. Consulta i <a href="https://www.deezer.com/legal/cgu">termini di Deezer</a>.</p>
+
+    <h3>Provider LLM — Gemini/OpenAI</h3>
+    <p>Il provider cloud è disattivato di default. Se l'utente lo configura, il testo del comando e i soli parametri necessari possono essere inviati al provider selezionato per interpretare richieste musicali. La chiave API viene configurata dall'utente e resta sul dispositivo; non viene inviata a GenLan4. Il provider può trattare i dati secondo la propria privacy policy e conservarli secondo i propri termini.</p>
+
+    <h3>Google Play Billing</h3>
+    <p>Se l'utente acquista MelodIA Pro, l'acquisto è gestito da Google Play Billing. MelodIA riceve da Google lo stato tecnico dell'acquisto per abilitare la funzione Pro; i dati di pagamento sono gestiti da Google e non vengono raccolti dall'app.</p>
+
+    <h2>5. Conservazione e cancellazione</h2>
+    <p>I dati locali restano sul dispositivo finché l'utente non li elimina, cancella i dati dell'app o disinstalla MelodIA. La cache Lyrics può essere cancellata dalle Impostazioni. I provider esterni possono conservare le richieste secondo le proprie policy: per eliminarle, occorre rivolgersi al provider interessato.</p>
+
+    <h2>6. Condivisione e vendita</h2>
+    <p>GenLan4 non vende i dati personali e non li condivide per pubblicità comportamentale. Le trasmissioni ai provider sopra indicati avvengono per fornire la funzione richiesta dall'utente.</p>
+
+    <h2>7. Sicurezza</h2>
+    <p>MelodIA usa le funzioni di sicurezza del sistema Android e connessioni HTTPS per i provider configurati. Nessun metodo di archiviazione locale o trasmissione su Internet può garantire sicurezza assoluta. Non inserire nei comandi dati sensibili non necessari.</p>
+
+    <h2>8. Minori</h2>
+    <p>MelodIA non è progettata per raccogliere consapevolmente dati personali di minori. Se ritieni che siano stati forniti dati personali in modo improprio, contatta lo sviluppatore tramite la scheda Google Play.</p>
+
+    <h2>9. Modifiche</h2>
+    <p>Questa informativa può essere aggiornata quando cambiano l'app o i servizi integrati. La data in cima alla pagina indica la versione corrente.</p>
+
+    <p class="notice"><strong>Nota per Google Play:</strong> questa pagina descrive la configurazione attuale dell'app. La sezione Data safety deve essere compilata separatamente in Play Console e verificata sulla build effettivamente pubblicata.</p>
+  </main>
+</body>
+</html>
