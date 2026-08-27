@@ -18,4 +18,4 @@ melodia/
    - `https://genlan4.github.io/privacy/melodia/`
 5. Inserisci il secondo URL nella scheda dell'app su Google Play.
 
-Prima della pubblicazione verifica che i dati del titolare, il contatto email, la versione dell'app e i provider siano corretti. Mantieni la pagina raggiungibile senza login e in HTTPS.
+La pagina MelodIA indica come titolare **Gennaro Langella** e come contatto `gennaro.langella@hotmail.it`. Mantieni la pagina raggiungibile senza login e in HTTPS.
